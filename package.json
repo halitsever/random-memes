@@ -1,0 +1,30 @@
+{
+  "name": "random-memes",
+  "version": "1.0.0",
+  "description": "Random meme genarator for node.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [
+    "random-memes",
+    "random meme",
+    "meme genarator",
+    "memes"
+  ],
+  "author": "murathasev",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "snekfetch": "^4.0.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/murathasev/random-memes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/murathasev/random-memes/issues"
+  },
+  "homepage": "https://github.com/murathasev/random-memes"
+}
