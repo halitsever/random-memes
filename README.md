@@ -16,7 +16,7 @@ Caption: Hmm I wonder if this was planned
 
 
 # Made by
-<p align="center">
+<h1 align="center">
   <img src="https://i.ibb.co/xMgkWss/nebula-signed.png" />
 </p>
 
