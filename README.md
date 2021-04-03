@@ -32,4 +32,4 @@ Random text & image meme generator module for node.js
 
 <h1>Example</h1>
 <img align="left" width="250" height="300" src="https://i.ibb.co/nR4jWYK/hexagon-2307350-640.png">
-Random memes with express example in <a href="https://github.com/halitsever/random-memes/examples/express-random-memes.js">here</a>
+Random memes with express example in <a href="https://github.com/halitsever/random-memes/blob/main/examples/express-random-memes.js">here</a>
