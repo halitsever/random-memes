@@ -1,22 +1,20 @@
-const sn = require("snekfetch");
-
-class memegenerator {
-  async generate() {
-    var { body } = await sn.get("https://some-random-api.ml/meme");
-    if (body.image === undefined || body.image === null)
-      return console.log("API Error");
-    if (body.category === "nsfw") return;
-    console.log(
-      "Meme generated: " +
-        body.image +
-        "\nCategory: " +
-        body.category +
-        "\nCaption: " +
-        body.caption
-    );
-    return body.image;
+const fetch = require("node-fetch");
+var meme, image, category, caption, id;
+class random_memes {
+  async random() {
+    await fetch("https://some-random-api.ml/meme")
+      .then(res => res.json())
+      .then(
+        json =>
+          (meme = {
+            image: json.image,
+            category: json.category,
+            caption: json.caption,
+            id: json.id
+          })
+      );
+    return meme;
   }
 }
 
-module.exports = new memegenerator();
-
+module.exports = new random_memes();
