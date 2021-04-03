@@ -1,4 +1,4 @@
-const memes = require("./index.js");
+const memes = require("random-memes");
 const express = require("express");
 const app = express();
 
