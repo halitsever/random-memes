@@ -1,5 +1,5 @@
 const fs = require("fs");
-const { createCanvas, loadImage } = require("node-canvas");
+const { createCanvas, loadImage } = require("canvas");
 var dataURL, buffer;
 
 var createMeme = async function(...args) {
