@@ -43,8 +43,8 @@ var createMeme = async function(...args) {
       bottomtextposy = 450; // Fixed values if arguments is missing
 
     if (
-      (!args[1]["bottomtext-x"] === unde,
-      fined && !args[1]["bottomtext-y"] === undefined)
+      (!args[1]["bottomtext-x"] === undefined,
+      undefined && !args[1]["bottomtext-y"] === undefined)
     )
       (bottomtextposx = args[1]["bottomtext-x"]),
         (bottomtextposy = args[1]["bottomtext-y"]);
