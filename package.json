@@ -1,11 +1,11 @@
 {
   "name": "random-memes",
-  "version": "2.0.6",
-  "description": "Random meme genarator for node.js",
-  "main": "index.js",
-  "bin": "index.js",
+  "version": "3.0.0",
+  "description": "Random reddit & custom api meme genarator and custom meme maker module for node.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/index.js"
   },
   "keywords": [
     "random-memes",
@@ -17,6 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "node-fetch": "^2.6.1",
+    "node-canvas":"^2.8.0",
     "user": "*"
   },
   "repository": {
