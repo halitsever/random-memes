@@ -1,30 +1,37 @@
 {
-  "name": "random-memes",
-  "version": "2.0.6",
-  "description": "Random meme genarator for node.js",
-  "main": "index.js",
-  "bin": "index.js",
-  "scripts": {
-    "start": "node index.js"
+  "author": {
+    "name": "halitsever"
   },
+  "bin": {
+    "random-memes": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/halitsever/random-memes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "node-fetch": "^2.6.1",
+    "user": "*"
+  },
+  "deprecated": false,
+  "description": "Random reddit & custom api meme genarator and custom meme maker module for node.js",
+  "homepage": "https://github.com/halitsever/random-memes",
   "keywords": [
     "random-memes",
     "random meme",
     "meme genarator",
     "memes"
   ],
-  "author": "halitsever",
   "license": "MIT",
-  "dependencies": {
-    "node-fetch": "^2.6.1",
-    "user": "*"
-  },
+  "main": "src/index.js",
+  "name": "random-memes",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/halitsever/random-memes.git"
   },
-  "bugs": {
-    "url": "https://github.com/halitsever/random-memes/issues"
+  "scripts": {
+    "start": "node src/index.js"
   },
-  "homepage": "https://github.com/halitsever/random-memes"
+  "version": "3.0.1"
 }
