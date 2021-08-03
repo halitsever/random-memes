@@ -8,6 +8,8 @@
 <p align="left"> 
 Random reddit & custom api meme genarator and custom meme maker module for node.js
 <br>
+<a><b><a href="https://github.com/halitsever/random-memes/wiki/Documentation">Documentation Page</a></b></a><br>
+What can be done with random-memes?:<br>
 <a><b><a href="#random-memes-custom">Create your own memes with random-memes!</a></b></a><br>
 <a><b><a href="#random-memes">Create random meme with custom api</a></b></a><br>
 <a><b><a href="#random-memes-reddit">Create random meme with reddit api</a></b></a><br>
@@ -38,35 +40,22 @@ Random reddit & custom api meme genarator and custom meme maker module for node.
 <code>})</code><br>
 
 <a name="random-memes-reddit"></a>  
-<img width="250" height="250" src="https://i.ibb.co/NZbLZPQ/68747470733a2f2f692e6962622e636f2f5643395154436b2f36383734373437303733336132663266363932653639363236.png" align="left"><p align="right">
-<h1>Get memes from reddit</h1>
-<code>const memes = require("random-memes");</code><p></p>
-
+<img width="250" height="250" src="https://i.ibb.co/NZbLZPQ/68747470733a2f2f692e6962622e636f2f5643395154436b2f36383734373437303733336132663266363932653639363236.png" align="left">
+<h1>Get random memes from reddit api</h1>
 <code>
-// The parameter determines the language in which the content will be. You can also use: br,de,en,es,fr,in:,it,ru,tr  <p></p>
-memes.fromReddit("en").then((meme)=>{
-</code>
-<p></p>
-<code>console.log("Meme generated: " + meme.image)</code><p></p>
-<code>//returns image link</code>
-
-<p></p><code>console.log("Category: " + meme.category)</code><p></p>
-<p></p><code>//returns category</code><p></p>
-
-<code>console.log("Caption: " + meme.caption)</code><p></p>
-<code>//returns image caption</code>
-
-<code>console.log("ID: " + meme.permalink)</code><p></p>
-<code>//returns permalink</code>
-
+const memes = require("random-memes");</code><br>
+<code>memes.fromReddit("en").then((meme)=>{</code><br>
+<code>console.log(meme);</code><br>
+<code>console.log(meme.image);</code><br>
 <code>})</code>
-</p>
+
+
 
 <a name="random-memes-custom"></a>  
-<p align="center">
+<br><br>
   <h1>Make your own memes! with random-memes</h1>
   <img src="https://i.ibb.co/M87921Q/Ba-l-ks-z.png">
-   <code>let memecontent = {<p></p>
+  <code>let memecontent = {<p></p>
     toptext: req.body.toptext,<p></p>
     bottomtext: req.body.bottomtext,<p></p>
     getdataurl: true<p></p>
@@ -80,18 +69,36 @@ memes.fromReddit("en").then((meme)=>{
     // returns dataurl, if you want save file or get buffer data just edit memecontent object<p></p>
   });
 </code>
-  
 <p align="center">Also you can check <a href="https://github.com/halitsever/random-memes/tree/main/examples">online meme creator example</a></p>
-</p>
+<p align="center"><a align="center" href="https://github.com/halitsever/random-memes/wiki/Documentation">and documentation page</a></p>
+
 
   <h1>Write code to have fun with your friends
 </h1>
 
-  <img align="left" src="https://i.ibb.co/X5fcJBx/hey.png">(function: createDuoMeme)<br>
-  <a align="left">Random memes with express example in <a href="https://github.com/halitsever/random-memes/blob/main/examples/express-random-memes.js">here</a>
-</a>
-<a align="left">For suggestions and requests: https://github.com/halitsever/random-memes/discussions<br>
- Feel free to make a pull request.
+  <img align="left" src="https://i.ibb.co/X5fcJBx/hey.png">
+  
+  <code>let memecontent = {</code><br>
+  <code>  "photo1: "./me.png",</code><br>
+  <code>  "photo1-x": 130,</code><br>
+  <code>  "photo1-y": 130,</code><br>
+  <code>  photo2: "./myfriend.png",</code><br>
+  <code> "photo2-x": 300,</code><br>
+  <code>  "photo2-y": 150,</code><br>
+  <code>  savefile: true,</code><br>
+  <code> filename: "wmyfriend",</code><br>
+  <code>  fileformat: "png"</code><br>
+  <code>};</code><br>
+  <code>memes</code><br>
+  <code> .createDuoMeme(</code><br>
+    <code>  "./bear.png",  memecontent);</code>
+  </a><br>
+  <b>All Examples:</b><br>
+  <b><a href="https://github.com/halitsever/random-memes/blob/main/examples/Telegram-Bot-Random-Meme-Generator-Example/Telegram-Bot-Random-Memes.js">Telegram (Telegraf.js) Random-Meme Generator</a></b>
+  <br>  <b><a href="https://github.com/halitsever/random-memes/blob/main/examples/Discord-Duo-Meme-Creator-Example/createDuo-Meme-Discord-Example.js">Discord (Discord.js) Create Duo Meme</a></b>
+    <br> <b><a href="https://github.com/halitsever/random-memes/tree/main/examples/Online-Express-Meme-Creator-Example">Online Meme Creator with Express.js</a></b>
+        <br> <b><a href="https://github.com/halitsever/random-memes/blob/main/examples/Get-Reddit-Posts-Example/Get-Reddit-Memes.js">Get Reddit Memes</a></b>
+
 </a>
 <br>
 <br>
