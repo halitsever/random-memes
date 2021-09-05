@@ -9,6 +9,7 @@
 <img src="https://img.shields.io/npm/dt/random-memes?color=red&style=for-the-badge" alt="random-memes-download-count">
  <img src="https://img.shields.io/librariesio/release/npm/random-memes?style=for-the-badge" alt="random-memes-dependencies"> <img src="https://img.shields.io/npm/l/random-memes?style=for-the-badge" alt="random-memes-license">
   <img src="https://img.shields.io/librariesio/dependents/npm/random-memes?color=green&style=for-the-badge" alt="random-memes-dependents">
+  <img src="https://img.shields.io/npm/v/random-memes?style=for-the-badge" alt="random-memes-version">
   <br>
   
 Random reddit & custom api meme genarator and custom meme maker module for node.js
@@ -66,6 +67,7 @@ const memes = require("random-memes");</code><br>
     getdataurl: true<p></p>
     // getbuffer: true,<p></p>
     // savefile: true,<p></p>
+  // "toptext-x":100, "toptext-y":50, "bottomtext-x":100, "bottomtext-y":300,<p></p>
     // filename: "filename",<p></p>
     // fileformat: "png"<p></p>
   };<p></p>

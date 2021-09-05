@@ -37,23 +37,12 @@ var createMeme = async function(...args) {
   await loadImage(args[0]).then(img => {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
 
-    let toptextposx = 10,
-      toptextposy = 60,
-      bottomtextposx = 10,
-      bottomtextposy = 450; // Fixed values if arguments is missing
-
-    if (
-      (!args[1]["bottomtext-x"] === undefined,
-      undefined && !args[1]["bottomtext-y"] === undefined)
-    )
-      (bottomtextposx = args[1]["bottomtext-x"]),
-        (bottomtextposy = args[1]["bottomtext-y"]);
-    if (
-      !args[1]["toptext-x"] === undefined &&
-      !args[1]["toptext-y"] === undefined
-    )
-      (toptextposx = args[1]["toptext-x"]),
-        (toptextposy = args[1]["toptext-y"]);
+    toptextposx = args[1]["toptext-x"] != undefined ? args[1]["toptext-x"] : 10;
+    toptextposy = args[1]["toptext-y"] != undefined ? args[1]["toptext-y"] : 60;
+    bottomtextposx =
+      args[1]["bottomtext-x"] != undefined ? args[1]["bottomtext-x"] : 10;
+    bottomtextposy =
+      args[1]["bottomtext-y"] != undefined ? args[1]["bottomtext-y"] : 450;
 
     args[1]["toptext"] === undefined
       ? false
