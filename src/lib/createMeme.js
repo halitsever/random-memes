@@ -77,6 +77,7 @@ var createMeme = async function(...args) {
     }
 
     dataURL = canvas.toDataURL();
+    buffer = canvas.toBuffer();
   });
   if (args[1]["getdataurl"] === true) return dataURL;
   if (args[1]["getbuffer"] === true) return buffer;

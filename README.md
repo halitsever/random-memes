@@ -6,6 +6,11 @@
 <h1>random-memes Random Meme Generator</h1>
 <img align="right" width="250" height="250" src="https://i.ibb.co/VC9QTCk/68747470733a2f2f692e6962622e636f2f705774425876462f59656e692d50726f6a652e706e67-2.png">
 <p align="left"> 
+<img src="https://img.shields.io/npm/dt/random-memes?color=red&style=for-the-badge" alt="random-memes-download-count">
+ <img src="https://img.shields.io/librariesio/release/npm/random-memes?style=for-the-badge" alt="random-memes-dependencies"> <img src="https://img.shields.io/npm/l/random-memes?style=for-the-badge" alt="random-memes-license">
+  <img src="https://img.shields.io/librariesio/dependents/npm/random-memes?color=green&style=for-the-badge" alt="random-memes-dependents">
+  <br>
+  
 Random reddit & custom api meme genarator and custom meme maker module for node.js
 <br>
 <a><b><a href="https://github.com/halitsever/random-memes/wiki/Documentation">Documentation Page</a></b></a><br>
