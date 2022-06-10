@@ -1,0 +1,42 @@
+{
+  "author": {
+    "name": "halitsever"
+  },
+  "bin": {
+    "random-memes": "src/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/halitsever/random-memes/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "node-fetch": "^2.6.1",
+    "user": "*"
+  },
+  "deprecated": false,
+  "description": "Random reddit & custom api meme genarator and custom meme maker module for node.js",
+  "homepage": "https://github.com/halitsever/random-memes",
+  "keywords": [
+    "random-memes",
+    "random meme",
+    "meme genarator",
+    "memes",
+    "meme",
+    "meme maker",
+    "reddit memes",
+    "random reddit meme",
+    "random memes"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "name": "random-memes",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halitsever/random-memes.git"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "version": "3.1.1"
+}
