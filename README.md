@@ -79,6 +79,8 @@ const memes = require("random-memes");</code><br>
   // "toptext-x":100, "toptext-y":50, "bottomtext-x":100, "bottomtext-y":300,<p></p>
     // filename: "filename",<p></p>
     // fileformat: "png"<p></p>
+              //pictureheight: 1200,<p></p>
+        //picturewidth: 1200<p></p>
   };<p></p>
   memes.createMeme("IMAGE_URL", memecontent).then(meme => {<p></p>
     <p></p>console.log(meme)<p></p>
@@ -123,7 +125,9 @@ const memes = require("random-memes");</code><br>
   <code>  "photo2-y": 150,</code><br>
   <code>  savefile: true,</code><br>
   <code> filename: "wmyfriend",</code><br>
-  <code>  fileformat: "png"</code><br>
+  <code>  fileformat: "png",</code><br>
+   <code>  pictureheight: 1200,</code><br>
+    <code>  picturewidth: 1200</code><br>
   <code>};</code><br>
   
   <code>await memes.createDuoMeme("./bear.png", memecontent);</code>
@@ -142,7 +146,9 @@ const memes = require("random-memes");</code><br>
   <code>  "photo2-y": 150,</code><br>
   <code>  savefile: true,</code><br>
   <code> filename: "wmyfriend",</code><br>
-  <code>  fileformat: "png"</code><br>
+  <code>  fileformat: "png",</code><br>
+   <code>  pictureheight: 1200,</code><br>
+    <code>  picturewidth: 1200</code><br>
   <code>};</code><br>
   <code>memes</code><br>
   <code> .createDuoMeme(</code><br>
