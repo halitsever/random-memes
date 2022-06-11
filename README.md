@@ -116,40 +116,43 @@ const memes = require("random-memes");</code><br>
   <img align="left" src="https://i.ibb.co/X5fcJBx/hey.png">
   <h2>Async/Await:</h2>
 
-<code>let memecontent = {</code><br>
-  <code>  "photo1: "./me.png",</code><br>
-  <code>  "photo1-x": 130,</code><br>
-  <code>  "photo1-y": 130,</code><br>
-  <code>  photo2: "./myfriend.png",</code><br>
-  <code> "photo2-x": 300,</code><br>
-  <code>  "photo2-y": 150,</code><br>
-  <code>  savefile: true,</code><br>
-  <code> filename: "wmyfriend",</code><br>
-  <code>  fileformat: "png",</code><br>
-   <code>  pictureheight: 1200,</code><br>
-    <code>  picturewidth: 1200</code><br>
-  <code>};</code><br>
-  
-  <code>await memes.createDuoMeme("./bear.png", memecontent);</code>
+<code>
+    let memecontent = {</code><br>
+      <code>  photo1: "./me.png",</code><br>
+      <code>  "photo1-x": 280,</code><br>
+       <code> "photo1-y": 90,</code><br>
+     <code>   photo2: "./myfriend.png",</code><br>
+      <code>  "photo2-x": 210,</code><br>
+      <code>  "photo2-y": 60,</code><br>
+      <code>  savefile: true,</code><br>
+      <code>  filename: "withmyfriend",</code><br>
+     <code>   fileformat: "png",</code><br>
+    <code>    pictureheight: 500,</code><br>
+   <code>     picturewidth:500</code><br>
+  <code>      };</code><br>
+
+        
+<code>await memes.createDuoMeme("IMAGE_URL", memecontent)</code>
 <br>
 <br><br>
 <br><br>
 <br><br>
 <br>
 <h2>Promise:</h2>
-  <code>let memecontent = {</code><br>
-  <code>  "photo1: "./me.png",</code><br>
-  <code>  "photo1-x": 130,</code><br>
-  <code>  "photo1-y": 130,</code><br>
-  <code>  photo2: "./myfriend.png",</code><br>
-  <code> "photo2-x": 300,</code><br>
-  <code>  "photo2-y": 150,</code><br>
-  <code>  savefile: true,</code><br>
-  <code> filename: "wmyfriend",</code><br>
-  <code>  fileformat: "png",</code><br>
-   <code>  pictureheight: 1200,</code><br>
-    <code>  picturewidth: 1200</code><br>
-  <code>};</code><br>
+<code>
+    let memecontent = {</code><br>
+      <code>  photo1: "./me.png",</code><br>
+      <code>  "photo1-x": 280,</code><br>
+       <code> "photo1-y": 90,</code><br>
+     <code>   photo2: "./myfriend.png",</code><br>
+      <code>  "photo2-x": 210,</code><br>
+      <code>  "photo2-y": 60,</code><br>
+      <code>  savefile: true,</code><br>
+      <code>  filename: "withmyfriend",</code><br>
+     <code>   fileformat: "png",</code><br>
+    <code>    pictureheight: 500,</code><br>
+   <code>     picturewidth: 500</code><br>
+  <code>      };</code><br>
   <code>memes</code><br>
   <code> .createDuoMeme(</code><br>
     <code>  "./bear.png",  memecontent);</code>

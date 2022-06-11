@@ -3,6 +3,7 @@ const { createCanvas, loadImage } = require("canvas");
 var dataURL, buffer;
 
 var createDuoMeme = async function (...args) {
+
   let canvaswidth = args[1]["picturewidth"] != undefined ? args[1]["picturewidth"] : 500;
   let canvasheight = args[1]["pictureheight"] != undefined ? args[1]["pictureheight"] : 500;
 
@@ -13,8 +14,9 @@ var createDuoMeme = async function (...args) {
   await loadImage(args[0]).then(async img => {
     ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
     let i = 1;
-    while (i < 3) {
-      await loadImage(args[1]["photo" + i]).then(img => {
+
+    await loadImage(args[1]["photo" + i]).then(img => {
+      while (i < 3) {
         ctx.arc(
           args[1]["photo" + i + "-x"] + 40,
           args[1]["photo" + i + "-y"] + 40,
@@ -34,12 +36,14 @@ var createDuoMeme = async function (...args) {
           80,
           80
         );
-
         ctx.restore();
-      });
 
-      i++;
-    }
+        i++;
+      }
+    });
+
+
+
 
     if (args[1]["savefile"] === true) {
       if (
