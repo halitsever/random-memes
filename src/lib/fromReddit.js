@@ -17,22 +17,21 @@ var fromReddit = async function (subredditlocale) {
   subredditname = subreddits[subredditlocale];
   if (subreddits[subredditlocale] === undefined)
     subredditname = subreddits["en"];
-  await fetch(
+  let response = await fetch(
     "https://www.reddit.com/r/" + subredditname + "/hot/.json?count=100"
   )
-    .then(res => res.json())
-    .then(json => {
-      let postID =
-        json.data.children[
-        Math.floor(Math.random() * json.data.children.length)
-        ];
-      meme = {
-        image: postID.data.url,
-        category: postID.data.link_flair_text,
-        caption: postID.data.title,
-        permalink: postID.data.permalink
-      };
-    });
+  let memeObject = await response.json();
+  let postID = await
+    memeObject.data.children[
+    Math.floor(Math.random() * memeObject.data.children.length)
+    ];
+  let meme = {
+    image: postID.data.url,
+    category: postID.data.link_flair_text,
+    caption: postID.data.title,
+    permalink: postID.data.permalink
+  };
+
   return meme;
 };
 
