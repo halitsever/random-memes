@@ -2,7 +2,7 @@ const fetch = require("node-fetch");
 const fs = require("fs");
 
 var random = async function () {
-  let response = await fetch("https://random-memes-api.vercel.app/getmeme");
+  let response = await fetch("https://random-memes-api.vercel.app/getmemes");
   let memeObject = await response.json();
   let meme = {
     image: memeObject.image,
