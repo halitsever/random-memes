@@ -8,14 +8,8 @@
   "bugs": {
     "url": "https://github.com/halitsever/random-memes/issues"
   },
-  "bundleDependencies": [],
-  "dependencies": {
-    "canvas": "^2.8.0",
-    "node-fetch": "^2.6.7",
-    "user": "*"
-  },
   "deprecated": false,
-  "description": "Random reddit & custom api meme genarator and custom meme maker module for node.js",
+  "description": "🌁 Random meme genarator package with reddit & custom api support",
   "homepage": "https://github.com/halitsever/random-memes",
   "keywords": [
     "random-memes",
@@ -39,8 +33,11 @@
     "start": "node src/index.js",
     "test": "jest"
   },
-  "version": "3.1.8",
+  "version": "3.2.0",
   "devDependencies": {
     "jest": "^29.5.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
   }
 }
