@@ -8,7 +8,7 @@
 <br/>
 <br/>
 <img src="https://img.shields.io/github/sponsors/halitsever"/> 
-<img src="https://img.shields.io/github/license/halitsever/repo_name"/> 
+<img src="https://img.shields.io/github/license/halitsever/random-memes"/> 
 </p>
 <p align="center">
 <a align="center" href="https://halitsever.github.io/random-memes/">Documentation</a>
