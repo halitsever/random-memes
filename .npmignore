@@ -7,3 +7,9 @@ node_modules
 # npm package lock
 package-lock.json
 yarn.lock
+
+# Docs
+/docs
+
+# Github
+.github
