@@ -1,4 +1,4 @@
-const subreddits = {
+const subreddit = {
   br: "ItHadToBeBrazil",
   de: "GermanMemes",
   en: "dankmemes",
@@ -10,4 +10,4 @@ const subreddits = {
   tr: "burdurland",
 };
 
-module.exports = subreddits;
+module.exports = subreddit;
