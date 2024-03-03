@@ -1,5 +1,5 @@
 <p align="center" class="logo-section">
-<img src="https://i.ibb.co/427dNQk/troll-face-1.png" height="80" width="80"/>
+<img src="https://i.ibb.co/yRSmZ6G/leo-laughing-1.png" height="80" width="80"/>
 </br>
 <img src="https://halitsever-api.vercel.app/api/repo-title?title=Random%20Memes">
 
@@ -23,8 +23,6 @@
 
 - 🗒️ [**Text and Image**](#) - Get random memes as text & image
 
-- 🌏 [**API**](#) - You can self host our random memes API
-
   <a align="center" >
   <img src="https://halitsever-api.vercel.app/api/installation"/>
   </a>
@@ -35,13 +33,24 @@ Installation:
 npm install random-memes --save
 ```
 
-JS Example:
+Get random meme:
 
 ```javascript
-const memes = require("memes");
+const memes = require("random-memes");
 
 const fetchMeme = async () => {
-  const meme = await memes.image.reddit({ locale: "en" });
+  const meme = await memes.random();
+  console.log(meme);
+};
+```
+
+Get random meme from reddit:
+
+```javascript
+const memes = require("random-memes");
+
+const fetchMeme = async () => {
+  const meme = await memes.reddit({ locale: "en" });
   console.log(meme);
 };
 ```

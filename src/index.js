@@ -1,9 +1,5 @@
-const imageApi = require("./lib/image/index");
+const availableMethods = require("./lib/index");
 
 module.exports = {
-  image: imageApi,
-  text: {
-    // ... Empty for now
-    // TODO: Add text meme support
-  },
+  ...availableMethods,
 };
