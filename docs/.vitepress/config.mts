@@ -5,7 +5,7 @@ export default defineConfig({
   title: "Random Memes",
   description: "🌁 Random meme genarator package with reddit & custom api support",
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
-
+  base: '/random-memes/',
   themeConfig: {
 
     // https://vitepress.dev/reference/default-theme-config
