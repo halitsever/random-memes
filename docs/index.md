@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Random Memes"
   text: "Meme generator package"
-  tagline: 3.2.4
+  tagline: Random memes for Node.js, with zero dependencies
   actions:
     - theme: brand
       text: Get Started
@@ -21,10 +21,10 @@ features:
   - title: Simple
     icon: ✋
     details: Simple integration, let random-memes cook
-  - title:
-    icon: 📦
-    details: Its gets a random meme from our api service, with image, caption and category
-  - title: Reddit
-    icon: 🔴
-    details: Also it can fetch memes from reddit via reddit api
+  - title: Fresh memes
+    icon: 🎲
+    details: Picks a random image post from Lemmy meme communities, with image, caption, category and a link to the post
+  - title: CLI
+    icon: 💻
+    details: Run npx random-memes to get a meme in your terminal
 ---
