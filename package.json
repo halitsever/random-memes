@@ -3,24 +3,37 @@
     "name": "halitsever"
   },
   "bin": {
-    "random-memes": "src/index.js"
+    "random-memes": "src/cli.js"
   },
   "bugs": {
     "url": "https://github.com/halitsever/random-memes/issues"
   },
-  "deprecated": false,
-  "description": "🌁 Random meme genarator package with reddit & custom api support",
-  "homepage": "https://github.com/halitsever/random-memes",
+  "description": "🌁 Random meme generator for Node.js, powered by Lemmy meme communities",
+  "engines": {
+    "node": ">=20"
+  },
+  "exports": {
+    ".": {
+      "types": "./src/index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://halitsever.github.io/random-memes/",
   "keywords": [
     "random-memes",
     "random meme",
-    "meme genarator",
+    "meme generator",
     "memes",
     "meme",
     "meme maker",
     "reddit memes",
     "random reddit meme",
-    "random memes"
+    "random memes",
+    "lemmy"
   ],
   "license": "MIT",
   "main": "src/index.js",
@@ -30,18 +43,17 @@
     "url": "git+https://github.com/halitsever/random-memes.git"
   },
   "scripts": {
-    "start": "node src/index.js",
-    "test": "jest",
+    "start": "node src/cli.js",
+    "test": "node --test",
+    "test:types": "tsc -p tests/types",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
-  "version": "3.2.6",
+  "types": "src/index.d.ts",
+  "version": "4.0.0",
   "devDependencies": {
-    "jest": "^29.5.0",
-    "vitepress": "^1.0.0-rc.44"
-  },
-  "dependencies": {
-    "axios": "^1.6.7"
+    "typescript": "^7.0.2",
+    "vitepress": "^1.6.4"
   }
 }
