@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Random Memes",
-  description: "🌁 Random meme genarator package with reddit & custom api support",
+  description: "🌁 Random meme generator for Node.js, powered by Lemmy meme communities",
   head: [['link', { rel: 'icon', href: '/favicon.png' }]],
   base: '/random-memes/',
   themeConfig: {
@@ -20,7 +20,7 @@ export default defineConfig({
         items: [
           { text: 'Usage', link: '/usage' },
           { text: 'random()', link: '/random' },
-          { text: 'reddit()', link: '/reddit' }
+          { text: 'reddit() (deprecated)', link: '/reddit' }
 
         ]
       }
