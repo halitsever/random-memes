@@ -16,9 +16,10 @@ jobs:
         with:
           node-version: 22
           registry-url: "https://registry.npmjs.org"
+      # Trusted publishing needs npm 11.5.1 or newer.
+      - name: Update npm
+        run: npm install -g npm@latest
       - name: Install dependencies and test 🧪
         run: npm ci && npm test && npm run test:types
       - name: Publish package on NPM 📦
-        run: npm publish --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: npm publish
