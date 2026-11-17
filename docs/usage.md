@@ -1,3 +1,7 @@
+---
+description: "Install random-memes, get a random meme in Node.js with CommonJS, ES modules or TypeScript, use the CLI and handle errors."
+---
+
 # Usage
 
 ## Installation
