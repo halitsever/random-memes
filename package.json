@@ -8,7 +8,7 @@
   "bugs": {
     "url": "https://github.com/halitsever/random-memes/issues"
   },
-  "description": "🌁 Random meme generator for Node.js, powered by Lemmy meme communities",
+  "description": "Random meme generator for Node.js with a CLI and TypeScript types. Fetches meme images from Lemmy communities, zero dependencies.",
   "engines": {
     "node": ">=20"
   },
@@ -25,15 +25,18 @@
   "homepage": "https://halitsever.github.io/random-memes/",
   "keywords": [
     "random-memes",
-    "random meme",
-    "meme generator",
+    "random-meme",
+    "meme-generator",
+    "meme-api",
     "memes",
     "meme",
-    "meme maker",
-    "reddit memes",
-    "random reddit meme",
-    "random memes",
-    "lemmy"
+    "random-meme-api",
+    "meme-cli",
+    "lemmy",
+    "reddit-memes",
+    "funny",
+    "nodejs",
+    "typescript"
   ],
   "license": "MIT",
   "main": "src/index.js",

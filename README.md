@@ -1,14 +1,15 @@
 <p align="center" class="logo-section">
-<img src="https://i.ibb.co/yRSmZ6G/leo-laughing-1.png" height="80" width="80"/>
+<img src="https://i.ibb.co/yRSmZ6G/leo-laughing-1.png" height="80" width="80" alt="Random Memes logo"/>
 </br>
 <img src="https://halitsever-api.vercel.app/api/repo-title?title=Random%20Memes">
 
 <p align="center">
-🌁 Random meme generator module for Node.js<br>
+🌁 Random meme generator for Node.js, with a CLI and TypeScript types. Fetches random meme images from Lemmy meme communities, with zero dependencies.<br>
 <br/>
 <br/>
-<img src="https://img.shields.io/github/sponsors/halitsever"/> 
-<img src="https://img.shields.io/github/license/halitsever/random-memes"/> 
+<img src="https://img.shields.io/github/sponsors/halitsever" alt="GitHub sponsors"/> 
+<a href="https://www.npmjs.com/package/random-memes"><img src="https://img.shields.io/npm/v/random-memes" alt="npm version"/></a>
+<img src="https://img.shields.io/github/license/halitsever/random-memes" alt="License: MIT"/> 
 </p>
 <p align="center">
 <a align="center" href="https://halitsever.github.io/random-memes/">Documentation</a>
@@ -70,6 +71,11 @@ npx random-memes
 <a align="center" href="https://github.com/halitsever/random-memes/issues">
 <img src="https://halitsever-api.vercel.app/api/issue"/>
 </a>
+
+<p align="center">
+Found a bug or have an idea? Open an <a href="https://github.com/halitsever/random-memes/issues">issue</a>.<br/>
+Read the <a href="CONTRIBUTING.md">contributing guide</a> before sending a pull request.
+</p>
 
 <a align="center">
 <img src="https://halitsever-api.vercel.app/api/sponsor"/>

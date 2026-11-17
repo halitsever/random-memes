@@ -1,3 +1,7 @@
+---
+description: "reddit() fetches a random image post from a subreddit. It is deprecated and will be removed in random-memes v5."
+---
+
 # reddit()
 
 ::: warning Deprecated

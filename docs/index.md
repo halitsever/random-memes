@@ -1,6 +1,9 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Random Memes
+titleTemplate: Random meme generator for Node.js
+description: "Random meme generator for Node.js with a CLI and TypeScript types. Fetches meme images from Lemmy communities, zero dependencies."
 
 hero:
   name: "Random Memes"
