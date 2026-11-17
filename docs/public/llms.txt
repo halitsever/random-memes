@@ -1,0 +1,17 @@
+# Random Memes
+
+> random-memes is a zero-dependency Node.js package and CLI that returns a random meme image from Lemmy meme communities, with TypeScript types.
+
+Install with `npm install random-memes` (Node.js 20 or newer). Call `await random()` to get `{ image, category, caption, permalink }`; it works with `require` and with named ES module imports. `reddit()` is deprecated, fails with HTTP 403 in most environments and will be removed in v5.
+
+## Docs
+
+- [Usage](https://halitsever.github.io/random-memes/usage.html): installation, CommonJS, ES module and TypeScript usage, the CLI, error handling and upgrading from v3
+- [random()](https://halitsever.github.io/random-memes/random.html): which Lemmy communities are used, caching, the return shape and when the call rejects
+- [reddit() (deprecated)](https://halitsever.github.io/random-memes/reddit.html): the deprecated subreddit method and its parameters
+
+## Optional
+
+- [Source](https://github.com/halitsever/random-memes): repository
+- [npm](https://www.npmjs.com/package/random-memes): package page
+- [Changelog](https://github.com/halitsever/random-memes/blob/main/CHANGELOG.md): breaking changes and fixes per version
