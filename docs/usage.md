@@ -62,4 +62,4 @@ try {
 
 ## Upgrading from v3
 
-See the [changelog](https://github.com/halitsever/random-memes/blob/master/CHANGELOG.md) for the breaking changes in v4.
+See the [changelog](https://github.com/halitsever/random-memes/blob/main/CHANGELOG.md) for the breaking changes in v4.

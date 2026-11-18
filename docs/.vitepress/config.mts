@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 const siteUrl = 'https://halitsever.github.io/random-memes/'
-const description = 'Random meme generator for Node.js with a CLI and TypeScript types. Fetches meme images from Lemmy communities, zero dependencies.'
+const description = 'Random meme API for Node.js with a CLI and TypeScript types. Fetches random meme images from Lemmy communities, with zero dependencies.'
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -22,7 +22,7 @@ export default defineConfig({
   title: "Random Memes",
   description,
   head: [
-    ['link', { rel: 'icon', href: '/favicon.png' }],
+    ['link', { rel: 'icon', href: '/random-memes/favicon.png' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Random Memes' }],
     ['meta', { property: 'og:image', content: `${siteUrl}og.png` }],
@@ -58,6 +58,7 @@ export default defineConfig({
         items: [
           { text: 'Usage', link: '/usage' },
           { text: 'random()', link: '/random' },
+          { text: 'Meme API as JSON', link: '/meme-api' },
           { text: 'reddit() (deprecated)', link: '/reddit' }
 
         ]
