@@ -7,6 +7,8 @@ description: "Use random-memes as a random meme API in Node.js: get a meme as JS
 
 random-memes gives your Node.js code a random meme API without signing up anywhere. There is no hosted server and no API key: `random()` calls the public post API of a few [Lemmy](https://join-lemmy.org) meme communities from your own process and hands back one meme.
 
+If you were looking for a Reddit meme API: Reddit now blocks most requests that are not signed in, so random-memes v4 takes its memes from Lemmy instead. The old `reddit()` method still exists but is [deprecated](/reddit).
+
 ## What a call returns
 
 ```javascript
