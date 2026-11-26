@@ -40,3 +40,27 @@ import { random } from "random-memes";
 
 const { image, caption } = await random();
 ```
+
+## What a call gives you
+
+Each call to `random()` resolves to a plain object with four fields: `image`, a direct link to a JPEG, PNG, GIF or WebP file; `caption`, the post title; `category`, the Lemmy community the post came from; and `permalink`, a link to the original post. That is enough to post the image in a chat, show it on a page or credit the source.
+
+## How it works
+
+The package reads the hot posts of three Lemmy meme communities through Lemmy's public API, using the `fetch` built into Node.js. It drops pinned, NSFW, removed and non-image posts, merges cross-posts that share an image, and keeps the result in memory for 10 minutes. Calls in that window pick from the cached list without sending new requests, so a busy bot does not flood the Lemmy instances. If one community is down, the other two are still used.
+
+There is no hosted server between you and Lemmy and nothing to sign up for. Your process talks to the instances directly.
+
+## Requirements
+
+- Node.js 20 or newer.
+- Network access to lemmy.world and lemmy.ml.
+
+The package ships its own TypeScript declarations and works with both `require` and named ES module imports.
+
+## Where to go next
+
+- [Usage](/usage): installation, CommonJS, ES modules, TypeScript, the CLI and error handling.
+- [random()](/random): the communities, the filters, the cache and when a call rejects.
+- [Meme API](/meme-api): serve memes as JSON from your own HTTP endpoint.
+- [reddit()](/reddit): the deprecated Reddit method, kept until v5.
