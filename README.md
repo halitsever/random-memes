@@ -4,7 +4,7 @@
 <img src="https://halitsever-api.vercel.app/api/repo-title?title=Random%20Memes">
 
 <p align="center">
-🌁 Random meme API for Node.js, with a CLI and TypeScript types. Fetches random meme images from Lemmy meme communities, with zero dependencies and no API key.<br>
+Random meme API for Node.js, with a CLI and TypeScript types. Fetches random meme images from Lemmy meme communities, with zero dependencies and no API key.<br>
 <br/>
 <br/>
 <img src="https://img.shields.io/github/sponsors/halitsever" alt="GitHub sponsors"/> 
@@ -20,13 +20,13 @@
 <img src="https://halitsever-api.vercel.app/api/details"/>
 </a>
 
-- 🎲 [**Fresh memes**](#) - Random image posts from [Lemmy](https://join-lemmy.org) meme communities
+- [**Fresh memes**](#) - Random image posts from [Lemmy](https://join-lemmy.org) meme communities
 
-- 🗒️ [**Text and Image**](#) - Get random memes as text & image
+- [**Text and Image**](#) - Get random memes as text & image
 
-- 💻 [**CLI**](#) - Run `npx random-memes` to get a meme in your terminal
+- [**CLI**](#) - Run `npx random-memes` to get a meme in your terminal
 
-- 📦 [**Zero dependencies**](#) - Uses the `fetch` built into Node.js, ships TypeScript types
+- [**Zero dependencies**](#) - Uses the `fetch` built into Node.js, ships TypeScript types
 
 - [**Meme API endpoint**](https://halitsever.github.io/random-memes/meme-api.html) - Serve random memes as JSON from your own server
 
