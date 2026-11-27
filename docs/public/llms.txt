@@ -6,10 +6,10 @@ Install with `npm install random-memes` (Node.js 20 or newer). Call `await rando
 
 ## Docs
 
-- [Usage](https://halitsever.github.io/random-memes/usage.html): installation, CommonJS, ES module and TypeScript usage, the CLI, error handling and upgrading from v3
-- [random()](https://halitsever.github.io/random-memes/random.html): which Lemmy communities are used, caching, the return shape and when the call rejects
-- [Meme API: Get Random Memes as JSON](https://halitsever.github.io/random-memes/meme-api.html): a real response, serving memes as JSON from your own HTTP server, the CLI and where the memes come from
-- [reddit() (deprecated)](https://halitsever.github.io/random-memes/reddit.html): the deprecated subreddit method and its parameters
+- [Usage](https://projects.halit.org/random-memes/usage.html): installation, CommonJS, ES module and TypeScript usage, the CLI, error handling and upgrading from v3
+- [random()](https://projects.halit.org/random-memes/random.html): which Lemmy communities are used, caching, the return shape and when the call rejects
+- [Meme API: Get Random Memes as JSON](https://projects.halit.org/random-memes/meme-api.html): a real response, serving memes as JSON from your own HTTP server, the CLI and where the memes come from
+- [reddit() (deprecated)](https://projects.halit.org/random-memes/reddit.html): the deprecated subreddit method and its parameters
 
 ## Optional
 

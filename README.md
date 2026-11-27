@@ -12,7 +12,7 @@ Random meme API for Node.js, with a CLI and TypeScript types. Fetches random mem
 <img src="https://img.shields.io/github/license/halitsever/random-memes" alt="License: MIT"/> 
 </p>
 <p align="center">
-<a align="center" href="https://halitsever.github.io/random-memes/">Documentation</a>
+<a align="center" href="https://projects.halit.org/random-memes/">Documentation</a>
   </p>
 </p>
 
@@ -28,7 +28,7 @@ Random meme API for Node.js, with a CLI and TypeScript types. Fetches random mem
 
 - [**Zero dependencies**](#) - Uses the `fetch` built into Node.js, ships TypeScript types
 
-- [**Meme API endpoint**](https://halitsever.github.io/random-memes/meme-api.html) - Serve random memes as JSON from your own server
+- [**Meme API endpoint**](https://projects.halit.org/random-memes/meme-api.html) - Serve random memes as JSON from your own server
 
   <a align="center" >
   <img src="https://halitsever-api.vercel.app/api/installation"/>
