@@ -2,7 +2,7 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 title: Random Meme API for Node.js
-description: "random-memes is a random meme API for Node.js with a CLI. Get a random meme image, caption and link from Lemmy communities in one call, with no API key and zero dependencies."
+description: "random-memes is a random meme API for Node.js with a CLI: get a meme image, caption and link from Lemmy in one call, with no API key and zero dependencies."
 
 hero:
   name: "Random Memes"
