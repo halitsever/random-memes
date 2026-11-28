@@ -22,6 +22,12 @@ Install with `npm install random-memes` (Node.js 20 or newer). Call `await rando
 - [Meme generator API vs random meme API](https://projects.halit.org/random-memes/blog/meme-generator-api.html): Imgflip, memegen.link and random-memes
 - [Filter NSFW posts from Lemmy](https://projects.halit.org/random-memes/blog/lemmy-nsfw-filter.html): the flags random-memes checks
 - [Random memes in the terminal](https://projects.halit.org/random-memes/blog/random-memes-cli.html): the CLI, JSON output and shell greetings
+- [Reddit alternatives](https://projects.halit.org/random-memes/blog/reddit-alternatives.html): Lemmy, PieFed, Mbin and Tildes compared, and which have an open API
+- [Promise.all vs Promise.allSettled](https://projects.halit.org/random-memes/blog/promise-allsettled.html): Promise.all vs Promise.allSettled with real requests
+- [CommonJS vs ESM](https://projects.halit.org/random-memes/blog/commonjs-vs-esm.html): named exports, cjs-module-lexer and require(esm)
+- [Mock fetch with node:test](https://projects.halit.org/random-memes/blog/node-test-runner-mock-fetch.html): mocking fetch and Date with node:test
+- [JavaScript fetch timeout](https://projects.halit.org/random-memes/blog/javascript-fetch-timeout.html): AbortSignal.timeout, error names and Node defaults
+- [User-Agent in fetch](https://projects.halit.org/random-memes/blog/fetch-user-agent.html): forbidden or not, Chrome vs Node, what to send
 
 ## Optional
 

@@ -14,7 +14,7 @@ faq:
     a: "random-memes skips posts marked NSFW, posts from NSFW communities, and removed, deleted and pinned posts. The remaining memes are what people post to the communities, so they can still be crude."
 ---
 
-# Build a Discord meme bot in Node.js
+# A /meme slash command for Discord with discord.js
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -123,3 +123,4 @@ random-memes fetches up to 50 hot posts from each community and keeps the list i
 - [Filter NSFW posts from Lemmy](/blog/lemmy-nsfw-filter): what the package leaves out
 - [Meme API as JSON](/meme-api): serve memes over HTTP instead
 - [Random meme](/random-meme/): see what the bot will post
+- [JavaScript fetch timeout](/blog/javascript-fetch-timeout): keep a slow server from hanging a command

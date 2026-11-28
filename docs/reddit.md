@@ -1,8 +1,9 @@
 ---
+title: "reddit()"
 description: "reddit() fetches a random image post from a subreddit. It is deprecated and will be removed in random-memes v5."
 ---
 
-# reddit()
+# reddit(): the deprecated subreddit source
 
 ::: warning Deprecated
 Reddit blocks most unauthenticated requests, so this method fails with HTTP 403 in most environments. It prints a `DeprecationWarning` on first use and will be removed in v5. Use [`random()`](/random) instead.

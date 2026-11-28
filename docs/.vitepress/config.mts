@@ -25,7 +25,13 @@ const blog: [string, string][] = [
   ['lemmy-api', 'Lemmy API in JavaScript'],
   ['meme-generator-api', 'Meme generator API vs random meme API'],
   ['lemmy-nsfw-filter', 'Filter NSFW posts from Lemmy'],
-  ['random-memes-cli', 'Random memes in the terminal']
+  ['random-memes-cli', 'Random memes in the terminal'],
+  ['reddit-alternatives', 'Reddit alternatives'],
+  ['promise-allsettled', 'Promise.all vs Promise.allSettled'],
+  ['commonjs-vs-esm', 'CommonJS vs ESM'],
+  ['node-test-runner-mock-fetch', 'Mock fetch with node:test'],
+  ['javascript-fetch-timeout', 'JavaScript fetch timeout'],
+  ['fetch-user-agent', 'User-Agent in fetch']
 ]
 
 // https://vitepress.dev/reference/site-config

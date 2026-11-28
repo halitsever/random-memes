@@ -14,7 +14,7 @@ faq:
     a: "lemmy.world and lemmy.ml answered cross-origin requests with Access-Control-Allow-Origin set to the requesting origin when checked on 28 November 2026, so a web page can read their public API directly."
 ---
 
-# Lemmy vs Reddit for developers
+# Building on Lemmy or Reddit: what a developer gets from each
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -91,3 +91,4 @@ const meme = await random();
 - [Is the Reddit API free?](/blog/is-reddit-api-free): Reddit's free access, explained
 - [Filter NSFW posts from Lemmy](/blog/lemmy-nsfw-filter): the flags to check
 - [random()](/random): how the package reads Lemmy
+- [Reddit alternatives](/blog/reddit-alternatives): Lemmy, PieFed, Mbin and Tildes side by side

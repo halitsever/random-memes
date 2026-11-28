@@ -14,7 +14,7 @@ faq:
     a: "Lemmy communities federate with other platforms. A post made from another fediverse server keeps its original address as the post link, and its image may be hosted there too."
 ---
 
-# Random memes in the terminal with npx
+# A random meme in your terminal, one npx command away
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -124,6 +124,6 @@ So `random-memes || echo "no meme today"` works as expected in scripts.
 ## Related
 
 - [Build a Discord meme bot](/blog/discord-meme-bot): the same memes as a slash command
-- [Meme generator API vs random meme API](/blog/meme-generator-api): which one you need
+- [Generating memes or fetching them: two kinds of meme API](/blog/meme-generator-api): which one you need
 - [Lemmy API in JavaScript](/blog/lemmy-api): what the CLI requests
 - [random()](/random): how a meme is picked

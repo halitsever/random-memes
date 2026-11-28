@@ -14,7 +14,7 @@ faq:
     a: "The random-memes package reads Lemmy meme communities, whose public API needs no key or account. It returns a random meme's image URL, caption, community and post link."
 ---
 
-# How to get a Reddit API key (and when you don't need one)
+# Getting a Reddit API key, and the route that needs none
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -74,7 +74,7 @@ const { random } = require("random-memes");
 const { image, caption, category, permalink } = await random();
 ```
 
-[Lemmy vs Reddit for developers](/blog/lemmy-vs-reddit) compares the two in more detail, and the [random meme page](/random-meme/) shows the result live in your browser.
+[Building on Lemmy or Reddit: what a developer gets from each](/blog/lemmy-vs-reddit) compares the two in more detail, and the [random meme page](/random-meme/) shows the result live in your browser.
 
 ## FAQ
 

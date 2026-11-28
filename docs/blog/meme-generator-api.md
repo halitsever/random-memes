@@ -14,7 +14,7 @@ faq:
     a: "Use a generator when users write the caption, for example /meme drake \"top\" \"bottom\". Use a random meme API when the bot should post something funny without input."
 ---
 
-# Meme generator API vs random meme API
+# Generating memes or fetching them: two kinds of meme API
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 

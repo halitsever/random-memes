@@ -14,7 +14,7 @@ faq:
     a: "No. It only catches posts that someone marked. Unmarked posts can still be offensive, so give users a way to report and keep a block list if your app needs one."
 ---
 
-# Filter NSFW posts from Lemmy in your app
+# Keeping NSFW and removed posts out of a Lemmy feed
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -98,6 +98,6 @@ To apply it to your own Lemmy requests, copy the two functions above. They have 
 ## Related
 
 - [Lemmy API in JavaScript](/blog/lemmy-api): the request and response fields
-- [Lemmy vs Reddit for developers](/blog/lemmy-vs-reddit): moderation and data rules
+- [Building on Lemmy or Reddit: what a developer gets from each](/blog/lemmy-vs-reddit): moderation and data rules
 - [random()](/random): every rule random-memes applies
 - [Random meme](/random-meme/): the filter, live in your browser
