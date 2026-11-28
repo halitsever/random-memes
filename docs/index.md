@@ -13,6 +13,9 @@ hero:
       text: Get Started
       link: /usage
     - theme: alt
+      text: See a random meme
+      link: /random-meme/
+    - theme: alt
       text: Github Repository
       link: https://github.com/halitsever/random-memes
   image:
