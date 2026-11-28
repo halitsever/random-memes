@@ -1,0 +1,19 @@
+.vp-doc .post-meta {
+  margin-top: -8px;
+  color: var(--vp-c-text-2);
+  font-size: 14px;
+}
+.vp-doc .post-list {
+  list-style: none;
+  padding-left: 0;
+}
+.vp-doc .post-list li {
+  margin: 0 0 20px;
+}
+.vp-doc .post-list a {
+  font-weight: 600;
+}
+.vp-doc .post-list p {
+  margin: 4px 0 0;
+  color: var(--vp-c-text-2);
+}
