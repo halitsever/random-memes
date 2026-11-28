@@ -80,6 +80,7 @@ If your project needs Reddit data specifically:
 ## Related
 
 - [How to get a Reddit API key](/blog/reddit-api-key): approval, OAuth and User-Agent
-- [Lemmy vs Reddit for developers](/blog/lemmy-vs-reddit): what changes when you switch
+- [Building on Lemmy or Reddit: what a developer gets from each](/blog/lemmy-vs-reddit): what changes when you switch
 - [Random meme](/random-meme/): Lemmy memes, live in the browser
 - [reddit() (deprecated)](/reddit): the old method and how to migrate
+- [Reddit alternatives](/blog/reddit-alternatives): communities and APIs outside Reddit

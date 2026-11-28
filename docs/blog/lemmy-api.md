@@ -14,7 +14,7 @@ faq:
     a: "lemmy.world and lemmy.ml returned Access-Control-Allow-Origin matching the requesting origin when checked, so fetch() from a browser works for public reads."
 ---
 
-# Lemmy API: fetch posts from a community in JavaScript
+# Reading a Lemmy community's posts from JavaScript
 
 <p class="post-meta">Halit Sever · 28 November 2026</p>
 
@@ -110,7 +110,9 @@ lemmy.world and lemmy.ml send `Access-Control-Allow-Origin` with the requesting 
 
 ## Related
 
-- [Lemmy vs Reddit for developers](/blog/lemmy-vs-reddit): access and data rules compared
+- [Building on Lemmy or Reddit: what a developer gets from each](/blog/lemmy-vs-reddit): access and data rules compared
 - [Filter NSFW posts from Lemmy](/blog/lemmy-nsfw-filter): the flags in `post` and `community`
 - [random()](/random): the package's full picking rules
 - [Meme API as JSON](/meme-api): serving the result over HTTP
+- [JavaScript fetch timeout](/blog/javascript-fetch-timeout): giving each request a deadline
+- [User-Agent in fetch](/blog/fetch-user-agent): identifying your client to the instance

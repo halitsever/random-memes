@@ -1,8 +1,9 @@
 ---
+title: "random()"
 description: "random() returns a random meme image post from Lemmy meme communities, with image, caption, category and post link."
 ---
 
-# random()
+# random(): one meme from Lemmy's meme communities
 
 Picks a random image post from the hot listings of these [Lemmy](https://join-lemmy.org) communities:
 
